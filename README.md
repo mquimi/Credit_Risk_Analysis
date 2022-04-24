@@ -14,7 +14,7 @@ The techniques that were used to train and evalatue the models were:
 
 ### Results: 
 
-## Naive Random Oversampling
+# Naive Random Oversampling
 ![](https://github.com/mquimi/Credit_Risk_Analysis/blob/main/images/Naive%20Random%20Oversampling.png)
 
 - Balanced Accuracy is: 65%
