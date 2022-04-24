@@ -54,7 +54,15 @@ The techniques that were used to train and evalatue the models were:
 
 - Balanced Accuracy is: 93%
 - High Risk is at 7% with a sensitivity of 91% making F1 14%
-- Since there is a low number of false positives the low risj sensitivty is at 94%
+- Since there is a low number of false positives the low risk sensitivty is at 94%
 
 
-### Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+### Summary: 
+
+Based on the analysis that were performed for sampled models, all models show that there is weak precision when trying to determine if a credit risk is high.
+
+When the ensemble models were perfromed, this showed that there was a lot more improvment on the sensisitvity of high risk vs low risk.
+
+The EasyEnsembleClassifier model shows a recall of 92%, which means it detects almost all high risk credit. On the other hand, if the model shows low precision, this can  penalize the bank's credit strategy and future business opportunities.
+
+Although no model has a recall of 98%+, the one model that I would recommend to banks is the EasyEnsembleClassifier model.
